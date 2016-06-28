@@ -1,0 +1,142 @@
+.navbar {
+  min-height: 55px;
+  background-color: #ffffff;
+}
+
+.navbar-nav > li > a {
+  line-height: 55px;
+}
+
+.navbar-toggle {
+  margin-top: 25px;
+}
+
+.navbar-logo {
+  line-height: 55px;
+  font-size: 50px;
+}
+
+.scroll-top-wrapper {
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  text-align: center;
+  z-index: 99999999;
+  background-color: #ffffff;
+  color: #777777;
+  width: 50px;
+  height: 48px;
+  line-height: 48px;
+  right: 50%;
+  bottom: 30px;
+  padding-top: 2px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.scroll-top-wrapper:hover {
+  background-color: #888888;
+}
+
+.scroll-top-wrapper.show {
+  visibility: visible;
+  cursor: pointer;
+  opacity: 1.0;
+}
+
+.scroll-top-wrapper i.fa {
+  line-height: inherit;
+}
+
+@import url('bootstrap.min.css');
+body {
+  background: url('https://static.pexels.com/photos/28462/pexels-photo-28462.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 110px;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+  }
+}
+
+.img-logo {
+  max-width: 60%;
+  max-height: auto;
+}
+
+.main {
+  margin: 0 auto -60px;
+}
+
+.main .img-responsive {
+  margin-bottom: 30px;
+}
+
+.gallery {
+  padding-top: 15px;
+}
+
+.design {
+  margin-top: 50px;
+   padding:4em 0em;
+  background-color: #000000;
+}
+
+.design-text {
+  color: #dbdada;
+}
+
+.contact {
+  margin-top: 55px;
+  padding:4em 0em;
+  background-color: #dbdada;
+}
+
+footer,
+.footer-push {
+  height: 90px;
+  background-color: #000000;
+}
+
+footer,
+.footer_text {
+  line-height: 75px;
+  color: #F0C200;
+}
+
+.social-icons {
+  margin-right: 15px;
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 75px;
+}
+
+.yellow,
+.yellow a {
+  color: #F0C200;
+}
+
+.yellow-link {
+  color: #F0C200;
+  text-decoration: underline;
+}
+
+.smoothScroll {
+  text-decoration: none;
+}
